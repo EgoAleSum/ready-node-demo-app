@@ -1,0 +1,20 @@
+{
+  "name": "ready-node-demo-app",
+  "version": "1.0.0",
+  "description": "Demo Node.js app for MS Ready",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgoAleSum/ready-node-demo-app.git"
+  },
+  "author": "EgoAleSum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EgoAleSum/ready-node-demo-app/issues"
+  },
+  "homepage": "https://github.com/EgoAleSum/ready-node-demo-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "shortid": "^2.2.8"
+  }
+}
