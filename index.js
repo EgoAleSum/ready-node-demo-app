@@ -2,15 +2,11 @@
 
 // Require Express
 const express = require('express')
-const shortid = require('shortid')
 
-// Create an "instance id", which is unique for this instance of the app
-const instanceId = shortid.generate()
-
-// Create the app and respond with the instance id
+// Create the app and respond with the process id
 const app = express()
 app.get('/', (req, res) => {
-    res.send('Hello from Node.js! My instance id is: <b>' + instanceId + '</b>')
+    res.send('Hello from Node.js! My process id is: <b>' + process.pid + '</b>')
 })
 
 // Start the app

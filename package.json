@@ -14,7 +14,6 @@
   },
   "homepage": "https://github.com/EgoAleSum/ready-node-demo-app#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "shortid": "^2.2.8"
+    "express": "^4.16.2"
   }
 }
